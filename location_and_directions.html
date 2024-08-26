@@ -26,7 +26,82 @@
         </ul>
     </nav>
     <main>
-        <p>under construction</p>
+        <p style="max-width: 100%">1665 Philadelphia St, Darlington, SC 29532</p>
+        <div id="directions-container">
+            <div class="tab" onclick="showDirections(this, 'darlington')">From Darlington</div>
+            <div class="tab" onclick="showDirections(this, 'hartsville')">From Hartsville</div>
+            <div class="tab" onclick="showDirections(this, 'lamar')">From Lamar</div>
+            <div class="tab" onclick="showDirections(this, 'florence')">From Florence</div>
+            <div class="tab" onclick="showDirections(this, 'bishopville')">From Bishopville</div>
+        </div>
+
+        <div id="directions-content">
+            <div id="home" class="directions" style="display: block">
+                <p>Select your incoming location above.</p>
+            </div>
+            <div id="darlington" class="directions" style="display: none;">
+                <h2>From Darlington</h2>
+                <ol>
+                    <li>Go West on US 401 about 5½ miles from the By-Pass to Philadelphia Street.</li>
+                    <li>The road angles off to the right (we have a sign).</li>
+                    <li>Follow it for about 2.7 miles.</li>
+                    <li>The church is on the left. (Look for the white fence in front)</li>
+                </ol>
+            </div>
+
+            <div id="hartsville" class="directions" style="display: none;">
+                <h2>From Hartsville</h2>
+                <ol>
+                    <li>Go South on State 403 to the Oates Community.</li>
+                    <li>Turn Left on E 7 Pines Road. (There is a closed brick building on the left)</li>
+                    <li>Go 1/10th of a mile and turn RIGHT on Philadelphia Street.</li>
+                    <li>Follow this road about 3.8 miles.</li>
+                    <li>The church is on the right. (Look for the white fence in front)</li>
+                </ol>
+            </div>
+
+            <div id="lamar" class="directions" style="display: none;">
+                <h2>From Lamar</h2>
+                <ol>
+                    <li>Go East on US 401.</li>
+                    <li>As soon as you cross over I-20, turn left on the first road, Lawson Grove Road.</li>
+                    <li>Go 2.4 miles to the only Stop Sign you will come to.</li>
+                    <li>Turn RIGHT on Philadelphia Street.</li>
+                    <li>Go 7/10ths of a mile, and you will see the church on the right.</li>
+                </ol>
+            </div>
+
+            <div id="florence" class="directions" style="display: none;">
+                <h2>From Florence (Option 1)</h2>
+                <ol>
+                    <li>Get on Interstate I-20 heading West.</li>
+                    <li>Come off at Exit 131.</li>
+                    <li>Turn Right and immediately (100 yards) turn Left on Lawson Grove Road.</li>
+                    <li>Go 2.4 miles to the only Stop Sign you will come to.</li>
+                    <li>Turn RIGHT on Philadelphia Street.</li>
+                    <li>Go 7/10ths of a mile, and you will see the church on the right.</li>
+                </ol>
+                <h2>From Florence (Option 2)</h2>
+                <ol>
+                    <li>Go North on Hoffmeyer Rd to the traffic circle and turn left.</li>
+                    <li>Go 1.1 miles and Philadelphia Rd angles off to the right.</li>
+                    <li>Go 2.7 miles and the church is on the left.</li>
+                </ol>
+            </div>
+
+            <div id="bishopville" class="directions" style="display: none;">
+                <h2>From Bishopville</h2>
+                <ol>
+                    <li>Get on Interstate I-20 heading East.</li>
+                    <li>Come off at Exit 131.</li>
+                    <li>Turn LEFT and cross over the Interstate.</li>
+                    <li>As soon as you cross over I-20, turn left on the first road, Lawson Grove Road.</li>
+                    <li>Go 2.4 miles to the only Stop Sign you will come to.</li>
+                    <li>Turn RIGHT on Philadelphia Street.</li>
+                    <li>Go 7/10ths of a mile, and you will see the church on the right.</li>
+                </ol>
+            </div>
+        </div>
     </main>
 </div>
 <script src="script.js"></script>
