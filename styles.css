@@ -94,7 +94,10 @@ main {
 
 main p {
     font-family: "Poppins", sans-serif;
-    max-width: 60%;
+    max-width: 48rem;
+}
+main img {
+    max-width: 48rem;
 }
 
 main li {
