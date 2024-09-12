@@ -13,6 +13,7 @@ const directions = document.querySelectorAll('.directions');
 const tabs = document.querySelectorAll('.tab');
 
 function showDirections(callingElement, id) {
+    
     tabs.forEach(tab => {
         if(tab === callingElement)
             tab.classList.add('active');
