@@ -37,7 +37,6 @@ header {
     padding: 1rem;
     border-right: 1px solid #ddd;
 }
-
 .sidebar ul {
     list-style-type: none;
     padding: 0;
@@ -46,6 +45,15 @@ header {
 
 .sidebar li {
     margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+.sidebar li a code {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    background: #e0e0e0;
+    padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+    border-radius: 0.2rem;
+    font-size: 0.6em;
 }
 
 .sidebar a {
@@ -95,9 +103,12 @@ main {
 main p {
     font-family: "Poppins", sans-serif;
     max-width: 48rem;
+    text-indent: 2em;
 }
 main img {
     max-width: 48rem;
+    width: 100%;
+    height: auto;
 }
 
 main li {
@@ -110,10 +121,13 @@ main li {
     .container {
         flex-direction: column;
     }
-
     .sidebar {
-        width: 100%;
-        border-right: none;
-        border-bottom: 1px solid #ddd;
+        width: calc(85% - 0.75rem);
+        margin: 1rem;
+        padding: 1rem;
+        border: 1px solid #ddd;
+    }
+    main img {
+        max-width: 100%
     }
 }
