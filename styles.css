@@ -109,6 +109,7 @@ header {
     justify-content: center;
     gap: 10px; /* Adjust the gap as needed */
     padding: 10px;
+    margin-top: 2rem
 }
 .portrait-card {
     text-align: center;
@@ -135,6 +136,35 @@ header {
     font-size: 0.9em;
     margin: 5px 0;
     color: #1b3e51;
+}
+
+/*
+    Image gallery CSS
+ */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust the space between images as needed */
+    justify-content: center;
+    padding: 10px;
+}
+.image-gallery img {
+    flex: 1 1 auto;
+    max-width: calc(33.333% - 10px); /* Adjust the width percentage and gap as needed */
+    height: auto;
+    margin: 5px;
+    box-sizing: border-box;
+    object-fit: cover; /* Ensures the images cover the available space */
+}
+@media (max-width: 1200px) {
+    .image-gallery img {
+        max-width: calc(50% - 10px); /* Adjust the width for medium screens */
+    }
+}
+@media (max-width: 600px) {
+    .image-gallery img {
+        max-width: calc(100% - 10px); /* Adjust the width for small screens */
+    }
 }
 
 
