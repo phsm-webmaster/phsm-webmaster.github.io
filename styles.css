@@ -13,8 +13,12 @@ body, html {
 }
 main blockquote {
     border-left: #b3b3b3 5px solid;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     color: #595959;
+}
+main blockquote p {
+    text-indent: 0;
+    padding-left: 1rem;
 }
 main h2, main h3, main h4, main h5, main h6 {
     margin-bottom: 0;
@@ -31,6 +35,9 @@ header {
     min-height: calc(100vh - 60px); /* Subtract approximate header height */
 }
 
+/*
+    Sidebar CSS
+*/
 .sidebar {
     width: 250px;
     background-color: #f8f8f8;
@@ -55,7 +62,6 @@ header {
     border-radius: 0.2rem;
     font-size: 0.6em;
 }
-
 .sidebar a {
     text-decoration: none;
     color: #333;
@@ -63,16 +69,19 @@ header {
     padding: 0.5rem;
     transition: background-color 0.3s;
 }
-
 .sidebar a:hover, .sidebar a.active {
     background-color: #e0e0e0;
 }
-
 #directions-container {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    max-width: 800px;
 }
+
+/*
+    Tabs CSS
+ */
 .tab {
     display: flex;
     flex: 1;
@@ -83,7 +92,6 @@ header {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
 .tab:hover, .tab.active {
     background-color: #e2e2e2;
 }
@@ -92,14 +100,53 @@ header {
     display: none;
 }
 
+/*
+    Portrait CSS
+ */
+.portrait-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Adjust the gap as needed */
+    padding: 10px;
+}
+.portrait-card {
+    text-align: center;
+    flex: 0 1 auto;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.portrait-card img {
+    width: auto;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portrait-card h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.3em;
+    margin: 10px 0 5px 0;
+    color: #132330;
+}
+.portrait-card h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 0.9em;
+    margin: 5px 0;
+    color: #1b3e51;
+}
 
+
+/*
+    Main content styling (content on subpages, etc.)
+ */
 main {
     flex: 1;
     padding: 1rem;
     margin: 0 1rem 0 1rem;
     overflow-y: auto;
 }
-
 main p {
     font-family: "Poppins", sans-serif;
     max-width: 48rem;
@@ -110,13 +157,14 @@ main img {
     width: 100%;
     height: auto;
 }
-
 main li {
     font-family: "Poppins", sans-serif;
 }
 
 
-/* Responsive design for smaller screens */
+/*
+    Responsive design for smaller screens
+*/
 @media (max-width: 800px) {
     .container {
         flex-direction: column;
