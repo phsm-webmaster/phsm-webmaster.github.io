@@ -148,6 +148,11 @@ header {
     justify-content: center;
     padding: 10px;
 }
+
+.image-gallery.collapsed {
+    display: none; /* Hide the gallery when collapsed */
+}
+
 .image-gallery img {
     flex: 1 1 auto;
     max-width: calc(33.333% - 10px); /* Adjust the width percentage and gap as needed */
@@ -156,11 +161,13 @@ header {
     box-sizing: border-box;
     object-fit: cover; /* Ensures the images cover the available space */
 }
+
 @media (max-width: 1200px) {
     .image-gallery img {
         max-width: calc(50% - 10px); /* Adjust the width for medium screens */
     }
 }
+
 @media (max-width: 600px) {
     .image-gallery img {
         max-width: calc(100% - 10px); /* Adjust the width for small screens */
@@ -191,6 +198,55 @@ main li {
     font-family: "Poppins", sans-serif;
 }
 
+
+.event-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 1em; /* Adds 2em of spacing between elements */
+    width: 100%; /* Elements fill the width of the container */
+}
+.event {
+    font-family: "Poppins", sans-serif;
+    user-select: none;
+    background-color: rgba(0,0,0,0);
+    transition: background-color 0.3s ease-out;
+    padding: 2em;
+}
+.event:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.event h1 {
+    font-weight: bold;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+.event.collapsed h1:before {
+    content: ">   ";
+    white-space: pre;
+}
+
+.event h2 {
+    font-weight: normal;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    max-width: 48rem;
+}
+.event:not(.collapsed) h2.show-if-collapsed {
+    display: none;
+}
+.event.collapsed h2.hide-if-collapsed {
+    display: none;
+}
+.event h3 {
+    color: #5e5e5e;
+    font-weight: bolder;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0 0 20px 2em;
+}
 
 /*
     Responsive design for smaller screens

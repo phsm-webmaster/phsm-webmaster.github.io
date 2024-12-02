@@ -1,0 +1,59 @@
+{
+  "events": [
+    {
+      "name": "2024 Homecoming",
+      "description": "An absolutely grand day for us, with a service turnout of 103 people followed by a wonderful meal in the fellowship hall.",
+      "date": "2024-10-06",
+      "gallery": [
+        "media/events/homecoming_24/IMG_4966.JPG",
+        "media/events/homecoming_24/IMG_4979.JPG",
+        "media/events/homecoming_24/IMG_4984.JPG",
+        "media/events/homecoming_24/IMG_4986.JPG",
+        "media/events/homecoming_24/IMG_4987.JPG",
+        "media/events/homecoming_24/IMG_4996.JPG",
+        "media/events/homecoming_24/IMG_5000.JPG",
+        "media/events/homecoming_24/IMG_5003.JPG",
+        "media/events/homecoming_24/IMG_5006.JPG",
+        "media/events/homecoming_24/IMG_5011.JPG",
+        "media/events/homecoming_24/IMG_5012.JPG",
+        "media/events/homecoming_24/IMG_5015.JPG",
+        "media/events/homecoming_24/IMG_5016.JPG",
+        "media/events/homecoming_24/IMG_5040.JPG",
+        "media/events/homecoming_24/IMG_5044.JPG",
+        "media/events/homecoming_24/IMG_5048.JPG",
+        "media/events/homecoming_24/IMG_5050.JPG",
+        "media/events/homecoming_24/IMG_5051.JPG",
+        "media/events/homecoming_24/IMG_5057.JPG",
+        "media/events/homecoming_24/IMG_5059.JPG",
+        "media/events/homecoming_24/IMG_5064.JPG",
+        "media/events/homecoming_24/IMG_5066.JPG",
+        "media/events/homecoming_24/IMG_5069.JPG",
+        "media/events/homecoming_24/IMG_5072.JPG",
+        "media/events/homecoming_24/IMG_5082.JPG",
+        "media/events/homecoming_24/IMG_5086.JPG",
+        "media/events/homecoming_24/IMG_5089.JPG",
+        "media/events/homecoming_24/IMG_5092.JPG",
+        "media/events/homecoming_24/IMG_5095.JPG",
+        "media/events/homecoming_24/IMG_9297.JPG",
+        "media/events/homecoming_24/IMG_9298.JPG",
+        "media/events/homecoming_24/IMG_9300.JPG",
+        "media/events/homecoming_24/IMG_9301.JPG",
+        "media/events/homecoming_24/IMG_9302.JPG",
+        "media/events/homecoming_24/IMG_9303.JPG"
+      ]
+    },
+    {
+      "name": "Christmas Shoebox Dedication",
+      "description": "Donations of shoes and other offerings from members of the Church. The picture shows the 106 boxes given the year of 2024.",
+      "date": "2024-11-10",
+      "gallery": [
+        "media/events/shoebox/shoeboxes.jpg"
+      ]
+    },
+    {
+      "name": "2024 Ladies' Night Out",
+      "description": "Every year, the men of the Church invite all unescorted ladies of the Church out for an evening meal. This year, it was held at the Golden Corral in Florence. Our guest speaker was our former pastor and dear friend Dr. Dan Thigpen with his wife Faye.",
+      "date": "2024-11-18"
+    }
+  ]
+}
